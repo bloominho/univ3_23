@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+}
+
+/* TEXT */
+.GMS-Bold {
+  font-family: 'GmarketSansBold';
+  font-weight: 700;
+}
+
+.GMS-Norm {
+  font-family: 'GmarketSansMedium';
+  font-weight: 500;
+}
+
+.GMS-Light {
+  font-family: 'GmarketSansLight';
+  font-weight: 300;
+}
+
+.themeColor {
+  color: #597cb2;
+}
+
+.title-text {
+  font-size: 30px;
+}
+
+/* CLASS */
+.center-logo {
+  display: block;
+  margin-left: 15px;
+}
+
+.ex-explanation {
+  font-size: 0.7rem !important;
+  color: #626262
+}
+
+/* ID */
+
+#bodyCard {
+  max-width: 600px;
+  padding: 100px 30px 30px 30px;
+}
+
+#logo {
+  padding-right: 30px;
+}
+
+#form-check-input {
+  border: black;
+}
+
+.form-check-input:checked {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+
+/* TAG */
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Gmarket Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h5 {
+  font-size: 1rem !important; 
+  margin-bottom: 3px !important;
+}
+
+li {
+  font-size: 0.9rem !important;
+}
