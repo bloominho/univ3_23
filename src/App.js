@@ -248,7 +248,14 @@ function App() {
         </div>
 
         <div className="GMS-Bold mb-5">
-          <h3 className="GMS-Bold mb-3">등록 안내</h3>
+          <h3 className="GMS-Bold mb-2">등록비는 {finalMoney}원입니다.</h3>
+          <p className="ex-explanation mb-2">*등록비 계산: {reasons}</p>
+        </div>
+
+        <hr/>
+
+        <div className="GMS-Bold mb-5">
+          <h3 className="GMS-Bold mb-3">등록 방법 안내</h3>
           <div className="mb-4">
             <h4 className="GMS-Bold mb-1">1단계 : 신청서 작성</h4>
             <h5 className="GMS-Norm"><button type="button" class="btn btn-outline-primary border-0 GMS-Bold" onClick={() => {window.open("https://forms.gle/AWCteTyMEPhAMwfB7");}}><ins>여기서</ins></button> 신청서를 작성해주세요.</h5>
@@ -259,8 +266,6 @@ function App() {
             <h5 className="GMS-Norm mb-1">등록비 <ins className="GMS-Bold">{finalMoney}원</ins>을</h5>
             <h5 className="GMS-Bold mb-1">카카오뱅크 79798602808 (박희서)</h5>
             <h5 className="GMS-Norm mb-2">으로 입금해주세요.</h5>
-
-            <p className="ex-explanation mb-2">*등록비 사유: {reasons}</p>
           </div>
         </div>
 
