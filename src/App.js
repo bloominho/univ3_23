@@ -202,13 +202,13 @@ function App() {
             <h1 id="Title" className="GMS-Bold title-text mb-0 themeColor">겨울연합수양회</h1>
           </div>
           <div className="mb-3">
-            <img id="logo" src="./img/logo_fixed_2.png" className="rounded d-block" alt="..." width="250" />
+            <img id="logo" src="./img/logo_fixed_2.png" className="d-block" alt="..." width="250" />
           </div>
         </div>
         <div className="mb-5">
           <h4 className="GMS-Bold">{n}차 등록 기간</h4>
           <h5 className="GMS-Norm"><span className="GMS-Bold">전참 등록</span> | {jcMoney}원</h5>
-          <h5 className="GMS-Norm"><span className="GMS-Bold">부분참 등록</span> | (끼니당) 11,000원</h5>
+          <h5 className="GMS-Norm"><span className="GMS-Bold">부분참 등록</span> | (끼니/숙박당) 11,000원</h5>
           <p className="GMS-Bold ex-explanation mb-0">부분참 등록비가 전참 등록비를 초과할 경우 전참 등록비가 적용됩니다.</p>
           <p className="GMS-Bold ex-explanation mb-0">2024년 새돌, EBS, 현역 군지체는 등록기간 상관 없이 1차 등록비</p>
           <p className="GMS-Bold ex-explanation mb-0">버스티켓 별도 구매 (편도 8,000원, 왕복 16,000원)</p>
@@ -294,7 +294,7 @@ function App() {
         <div>
           <h4 className="GMS-Light mb-3">[합3:18] 나는 여호와로 말미암아 즐거워하며 나의 구원의 하나님으로 말미암아 기뻐하리로다</h4>
         </div>
-        <img id="logo" src="./img/logo_fixed_2.png" className="rounded d-block m-auto p-0" alt="..." width="100" />
+        <img id="logo" src="./img/logo_fixed_2.png" className="d-block m-auto p-0" alt="..." width="100" />
 
       </div>
     </body>
